@@ -22,6 +22,10 @@ custom-panic = []
 
 [dependencies]
 anchor-lang = "1.0.0"
+groth16-solana = {git = "https://github.com/Lightprotocol/groth16-solana"}
+imp = "0.1.0"
+ark-bn254 = "0.5"
+ark-serialize = "0.5"
 
 [dev-dependencies]
 litesvm = "0.10.0"

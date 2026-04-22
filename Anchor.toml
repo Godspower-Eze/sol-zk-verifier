@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-solana_zk_verifier = "BAeZT7LE3cdUkKR5e6EoDRvQQDER1xHXwRum5io2gJ93"
+solana_zk_verifier = "AR9BVLEzUAUHK7Fq4SjXoRkE7mCSR2qnZHQDUCkUYruQ"
 
 [provider]
 cluster = "localnet"
