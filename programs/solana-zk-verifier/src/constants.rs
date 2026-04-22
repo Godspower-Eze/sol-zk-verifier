@@ -4,7 +4,7 @@ use groth16_solana::groth16::Groth16Verifyingkey;
 #[constant]
 pub const SEED: &str = "anchor";
 
-pub const N: usize = 1;
+pub const N: usize = 9;
 
 pub const VERIFYING_KEY: Groth16Verifyingkey = Groth16Verifyingkey {
     nr_pubinputs: 10,

@@ -7,7 +7,7 @@ use anchor_lang::prelude::*;
 pub use constants::N;
 pub use instructions::*;
 
-declare_id!("AR9BVLEzUAUHK7Fq4SjXoRkE7mCSR2qnZHQDUCkUYruQ");
+declare_id!("5STsA74ZCLZXGdv33vP5fk1EgLBE4HNR494UpiqXXDz");
 
 #[program]
 pub mod solana_zk_verifier {
@@ -59,7 +59,6 @@ pub mod solana_zk_verifier {
         )
         .unwrap();
         verifier.verify().unwrap();
-        verifier.verify_unchecked().unwrap();
         Ok(())
     }
 }
