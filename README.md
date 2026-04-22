@@ -24,10 +24,11 @@ This executes the Groth16 proof verification test using the Solana test validato
 
 ## Deployed Contracts
 
-### Testnet
+### Devnet
 - **Program ID**: `5STsA74ZCLZXGdv33vP5fk1EgLBE4HNR494UpiqXXDz`
 - **Network**: Solana Devnet
-- **Status**: [Add deployment status and date]
+- **Status**: ✅ Deployed (Slot 457244444)
+- **Verify**: `solana program show 5STsA74ZCLZXGdv33vP5fk1EgLBE4HNR494UpiqXXDz --url devnet`
 
 ## Technical Details
 
